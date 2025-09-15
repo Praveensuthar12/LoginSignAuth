@@ -27,7 +27,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `http://127.0.0.1:8080/auth/signup`;
+            const url = `https://login-sign-auth-theta.vercel.app/auth/signup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
