@@ -23,7 +23,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "http://127.0.0.1:8080/products";
+            const url = "https://login-sign-auth-theta.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
